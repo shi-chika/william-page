@@ -1,0 +1,253 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Bruno Ace SC',sans-serif;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  a {
+    text-decoration: none;
+    display:block;
+    
+  }
+  .container {
+    max-width: 1296px;
+    margin: 0 auto;
+
+  }
+  .ta-right{
+    text-align: right;
+  }
+
+  /* 共同樣式 */
+  .fz-24{
+    font-size: 24px;
+  }
+  .fz-64{
+    font-size: 64px;
+  }
+  .pt-160{
+    padding-top: 160px;
+  }
+  .pb-160{
+    padding-bottom: 160px;
+  }
+  .mb-16{
+    margin-bottom: 16px;
+  }
+
+  header,main{
+    background-color:#000;
+  }
+  header,main,.bg-img{
+    color: #fff;
+  }
+
+  header{
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+  .link-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .link-bar li{
+    width: 22%;
+  }
+  .link-bar a{
+    color: #D1D1D1;
+  }
+  .link-bar a:hover{
+    text-decoration: underline;
+  }
+  .main-group{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .main-group div{
+    width: 49%;
+
+  }
+  .main-group h1{
+    font-size: 128px;
+    color: #00FFA3;
+    
+  }
+  .main-group a{
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background-color: #fff;
+  }
+  .main-group-text a:hover{
+    background-color: #5c5858;
+    color: #fff;
+  }
+  .contact-me{
+    display: flex;
+  }
+  .main-group-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-group-text a{
+    align-self: flex-end;
+  }
+  .bg-img{
+    background: url(images/background-img.png) center /cover no-repeat;
+  }
+  .introduction-group{
+    display: flex;
+    justify-content: space-between;
+  }
+  .introduction-text{
+    width: 41%;
+  }
+  .introduction-img1{
+    width: 15%;
+  }
+  .introduction-img2{
+    width: 24%;
+  }
+  .introduction-text h2{
+    margin-bottom: 36px;
+  }
+  .introduction-text p{
+    margin-bottom: 32px;
+  }
+  .introduction-text div{
+    display: flex;
+  }
+  .about-me{
+    display: flex;
+    justify-content: space-between;
+  }
+  .skill-group{
+    width:49% ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  .skill-item{
+    font-size: 20px;
+    width: 48%;
+    padding: 16px;
+    margin-bottom: 24px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  }
+  .fz-16{
+    font-size: 16px;
+  }
+  .about-me-text{
+    width: 41%;
+  }
+  .about-me-text h3{
+    margin-bottom: 36px;
+  }
+  .bg-blue{
+    background:linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .contact-me{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .contact-me div{
+    display: flex;
+    align-items: center;
+  }
+  .sns-link{
+    display: flex;
+    width: 41%;
+    justify-content: space-between;
+  }
+  .sns-link li{
+    width: 30%;
+    
+  }
+  .sns-link a:hover{
+    /* transform: scale(1.2, 1.2); */
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+  }
+  .my-projects-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  .my-projects-group-left{
+    width: 32%;
+
+  }
+  .my-projects-group-right{
+    width: 66%;
+
+  }
+  .my-projects-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  .my-projects-item-a{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+  }
+  .my-projects-item-a a{
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 32px;
+    align-self: flex-start;
+  }
+  .my-projects-item-a a:hover{
+    background-color: #5c5858;
+    color: #000
+
+  }
+  .my-projects-item-a p{
+    flex-grow: 1 
+
+  }
+  .my-projects-item-a span{
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  .container h4{
+    text-align: center;
+    padding-left: 250px;
+  }
+  footer{
+    background-color: #000;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  
+
+
